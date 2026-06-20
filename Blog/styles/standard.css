@@ -1,3 +1,9 @@
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
 .landing-home {
     height: 128px;
     width: 100%;
@@ -7,18 +13,21 @@
 }
 
 .header {
-    width: 600px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 114px;
+    justify-content: center;
+    /* padding-left: 114px; */
+    /* gap: 70px; */
 }
 
 .header-logo {
     height: 72px;
     width: 72px;
+    /* padding-right: 68px; */
+    display: flex;
 }
-
+/* 
 .nav-bar {
     width: 100%;
     display: flex;
@@ -32,5 +41,17 @@
 }
 
 .nav-bar a {
-    font-size: 24px;
+    font-size: 30px;
+} */
+
+footer {
+    background-color: rgba(78, 164, 135, 1);
+    font-size: 16px;
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+
+.footer a {
+    color: white;
 }
