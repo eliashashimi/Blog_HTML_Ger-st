@@ -44,14 +44,110 @@ body {
     font-size: 30px;
 } */
 
+main {
+    height: 100%;
+}
+
 footer {
+    height: 150px;
     background-color: rgba(78, 164, 135, 1);
-    font-size: 16px;
-    display: flex;
     color: white;
+    font-size: 16px;
+
+    display: flex;
     align-items: flex-end;
+    /* padding-bottom: 30px; */
+    font-family: "Palanquin";
+}
+
+.footer {
+    height: 75px;
+    width: 375px;
+    font-size: 16px;
+    font-family: "Palanquin";
+    padding: 30px 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer a {
+    height: 24px;
     color: white;
+    font-size: 16px;
+}
+
+.copyright {
+    display: flex;
+}
+
+.footer > img {
+    height: 16px;
+}
+
+.social-media-icons {
+    height: 24px;
+    width: 150px;
+    display: flex;
+    gap: 16px;
+    padding: 30px 24px;
+}
+
+.social-media-icons img {
+    height: 24px;
+}
+
+.social-media-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TikTok-Button {
+    height: 24px;
+    width: 24px;
+    background: rgba(241, 201, 83, 1);
+    border-radius: 5px;
+}
+
+#Youtube-Button {
+    height: 24px;
+    width: 30px;
+    background: rgba(241, 201, 83, 1);
+    border-radius: 8px;
+}
+
+#Facebook-Button {
+    height: 24px;
+    width: 24px;
+    background: rgba(241, 201, 83, 1);
+    border-radius: 50px;
+}
+
+#Instagram-Button {
+    height: 24px;
+    width: 24px;
+    background: rgba(241, 201, 83, 1);
+    border-radius: 5px;
+}
+
+#TikTok-Icon {
+    height: 19px;
+    width: 16px;
+}
+
+#Youtube-Icon {
+    height: 14px;
+    width: 14px;
+}
+
+#Facebook-Icon {
+    height: 18px;
+    width: 10px;
+}
+
+#Instagram-Icon {
+    height: 17px;
+    width: 17px;
 }

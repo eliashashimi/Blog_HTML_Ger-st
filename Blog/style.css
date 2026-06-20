@@ -1,4 +1,5 @@
 * {
     margin: 0;
-    font-family: arima;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
 }
