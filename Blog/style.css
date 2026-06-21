@@ -1,5 +1,5 @@
 body {
-    height: 100dvh;
+    height: 92dvh;
     display: flex;
     flex-direction: column;
 }
@@ -192,7 +192,7 @@ footer {
     width: 150px;
     display: flex;
     gap: 16px;
-    /* padding: 30px 24px; */
+    padding-bottom: 30px;
 }
 
 .social-media-icons img {
@@ -253,7 +253,7 @@ footer {
     width: 17px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 580px) {
     .nav-bar {
         display: none;
     }
