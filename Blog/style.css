@@ -52,6 +52,7 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 100%;
     padding: 80px 88px 0px 88px;
@@ -264,13 +265,13 @@ footer {
 }
 
 .blog-article-left {
-    display: grid;
-    grid-template-columns: 66%;
+    width: 902px;
+    height: 370px;
 }
 
 .blog-article-right {
-    display: grid;
-    grid-template-columns: 33%;
+    height: 389px;
+    width: 272px;
 }
 
 .blog-text {
@@ -341,6 +342,8 @@ footer {
     font-size: 16px;
     line-height: 120%;
     color: rgba(84, 55, 13, 1);
+    /* height: 389px;
+    width: 272px; */
 }
 
 .author-text {
@@ -397,5 +400,9 @@ footer {
 @media screen and (max-width: 768px) {
     .post-meta {
         gap: 16px;
+    }
+
+    .blog {
+        flex-direction: column;
     }
 }
