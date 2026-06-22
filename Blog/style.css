@@ -54,6 +54,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
+    padding: 80px 88px 0px 88px;
 }
 
 .faq img {
@@ -253,6 +254,121 @@ footer {
     width: 17px;
 }
 
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 24px 15px 0px 15px;
+    gap: 48px;
+}
+
+.blog-article-left {
+    display: grid;
+    grid-template-columns: 66%;
+}
+
+.blog-article-right {
+    display: grid;
+    grid-template-columns: 33%;
+}
+
+.blog-text {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 75%; */
+}
+
+.blog-text h3 {
+    font-family: "Palanquin";
+    font-weight: 600;
+    font-size: clamp(1.25rem, 5vw, 2.5rem);
+    color: rgba(78, 164, 135, 1);
+    line-height: 120%;
+}
+
+.blog-text h2 {
+    font-family: "Arima";
+    font-weight: 700;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: rgba(241, 201, 83, 1);
+    line-height: 100%;
+    padding-top: 8px;
+}
+
+.blog-text p {
+    font-family: "Palanquin";
+    font-weight: 400;
+    font-size: clamp(1.125rem, 5vw, 1.75rem);
+    color: rgba(84, 55, 13, 1);
+    line-height: 120%;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Palanquin";
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(84, 55, 13, 1);
+    line-height: 120%;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.post-meta-data {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.author-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(78, 164, 135, 0.2);
+    padding: 16px 8px;
+    gap: 16px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    font-family: "Palanquin";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: rgba(84, 55, 13, 1);
+}
+
+.author-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.author-card h4 {
+    font-family: "Arima";
+    font-weight: 700;
+    font-size: clamp(1rem 5vw 1.125rem);
+    line-height: 120%;
+    color: rgba(84, 55, 13, 1);
+}
+
+.author-card h5 {
+    font-family: "Arima";
+    font-weight: 400;
+    font-size: clamp(1rem 5vw 1.125rem);
+    line-height: 120%;
+    color: rgba(84, 55, 13, 1);
+}
+
+.author-text p {
+    padding-top: 16px;
+}
+
 @media screen and (max-width: 580px) {
     .nav-bar {
         display: none;
@@ -275,5 +391,11 @@ footer {
         justify-content: space-around;
         align-items: center;
         list-style-type: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .post-meta {
+        gap: 16px;
     }
 }
